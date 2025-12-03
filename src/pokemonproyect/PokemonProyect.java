@@ -221,7 +221,14 @@ public class PokemonProyect {
 
             if (!rival.estaDebilitado()) {
                 System.out.println(">> El rival contraataca!");
-                pokemonActivo.recibirDanio(8, rival.getTipo());
+                int indexAtack = 2;
+                if(ataques.get(indexAtack).getPpActuales()>0){
+                    pokemonActivo.recibirDanio(rival.lanzarAtaque(indexAtack).getPotencia(), rival.getTipo());
+                }else if ((ataques.get(indexAtack-1).getPpActuales()>0)){
+                    pokemonActivo.recibirDanio(rival.lanzarAtaque(indexAtack-1).getPotencia(), rival.getTipo());
+                }else{
+                    pokemonActivo.recibirDanio(rival.lanzarAtaque(0).getPotencia(), rival.getTipo());                    
+                }
             }
         }
     }
