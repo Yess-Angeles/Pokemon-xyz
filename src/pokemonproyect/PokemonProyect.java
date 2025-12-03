@@ -96,7 +96,7 @@ public class PokemonProyect {
         // 4. EXPLORACIÓN
         System.out.println("\n¿Quieres salir a explorar? (1: Si / 2: No)");
         int decision = scanner.nextInt();
-
+       
         if (decision != 1) {
             System.out.println("Has decidido terminar tu viaje muy pronto. Fin del juego.");
             reportePartida.append("Jugador decidio no salir. Fin.");

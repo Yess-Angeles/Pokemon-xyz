@@ -4,3 +4,5 @@
 [2025-12-02] Ganador: Partida iniciada. Eligio a: Squirtle. Atrapo a Rattata. Uso pocion tras combate. Resultado: VICTORIA FINAL.
 [2025-12-03] Ganador: Partida iniciada. Eligio a: Squirtle. Atrapo a Rattata. Uso pocion tras combate. Resultado: VICTORIA FINAL.
 [2025-12-03] Ganador: Partida iniciada. Eligio a: Charmander. Atrapo a Rattata. Uso pocion tras combate. Resultado: VICTORIA FINAL.
+[2025-12-03Partida iniciada. Eligio a: Charmander. Atrapo a Rattata. Uso pocion tras combate. Resultado: VICTORIA FINAL.
+[2025-12-03] Partida iniciada. Eligio a: Charmander. Atrapo a Rattata. Uso pocion tras combate. Resultado: DERROTA FINAL.
