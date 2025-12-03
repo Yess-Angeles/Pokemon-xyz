@@ -18,7 +18,7 @@ public class GestorArchivos {
         try (FileWriter archivo = new FileWriter("historial_batallas.txt", true);
              PrintWriter escritor = new PrintWriter(archivo)) {
 
-            escritor.println("[" + LocalDate.now() + "] Ganador: " + nombreGanador);
+            escritor.println("[" + LocalDate.now() + nombreGanador);
             System.out.println(">> SISTEMA: Resultado guardado exitosamente en 'historial_batallas.txt'");
         } catch (Exception e) {
             System.out.println("Error guardando archivo: " + e.getMessage());
